@@ -32,7 +32,7 @@ const takeTurn = (guess, round) =>{
 const endRound = (round) =>{
     let endGame = round.deck.length    
     if (round.turns === endGame){
-        return `** Round over! ** You answered ${calculatePercentCorrect(round)}% of the questions correctly!` 
+        console.log(`** Round over! ** You answered ${calculatePercentCorrect(round)}% of the questions correctly!`)
     }
 }
 
